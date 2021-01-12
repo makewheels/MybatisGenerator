@@ -3,6 +3,8 @@ package com.eg.testsharding.bean;
 public class Poem {
     private Long id;
 
+    private Long sequence;
+
     private String title;
 
     private String dynasty;
@@ -17,6 +19,14 @@ public class Poem {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public Long getSequence() {
+        return sequence;
+    }
+
+    public void setSequence(Long sequence) {
+        this.sequence = sequence;
     }
 
     public String getTitle() {

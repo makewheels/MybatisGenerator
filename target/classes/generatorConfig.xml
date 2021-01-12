@@ -35,20 +35,12 @@
             <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
 
-        <!--
-        mapper
-           ANNOTATEDMAPPER
-           XMLMAPPER
-           MIXEDMAPPER
-        -->
         <javaClientGenerator type="XMLMAPPER"
                              targetPackage="com.eg.testsharding.bean.mapper"
                              targetProject=".\src\main\java">
-            <!-- enableSubPackages:是否让schema作为包的后缀 -->
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
 
-        <!-- 指定所有数据库表 -->
         <table tableName="%"
                enableCountByExample="true"
                enableUpdateByExample="true"
@@ -58,14 +50,5 @@
                enableDeleteByPrimaryKey="true"
                enableSelectByPrimaryKey="true"
                selectByExampleQueryId="true"/>
-
-        <!-- 指定数据库表，要生成哪些表，就写哪些表，要和数据库中对应，不能写错！ -->
-
-        <!--        <table tableName="poem" domainObjectName="Poem"/>-->
-
-        <!--      <table schema="" tableName="orders"></table>
-             <table schema="" tableName="items"></table>
-             <table schema="" tableName="orderdetail"></table>
-      -->
     </context>
 </generatorConfiguration>
