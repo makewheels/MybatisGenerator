@@ -5,7 +5,7 @@ public class Author {
 
     private String name;
 
-    private String dynasty;
+    private String authorId;
 
     private String description;
 
@@ -25,12 +25,12 @@ public class Author {
         this.name = name == null ? null : name.trim();
     }
 
-    public String getDynasty() {
-        return dynasty;
+    public String getAuthorId() {
+        return authorId;
     }
 
-    public void setDynasty(String dynasty) {
-        this.dynasty = dynasty == null ? null : dynasty.trim();
+    public void setAuthorId(String authorId) {
+        this.authorId = authorId == null ? null : authorId.trim();
     }
 
     public String getDescription() {

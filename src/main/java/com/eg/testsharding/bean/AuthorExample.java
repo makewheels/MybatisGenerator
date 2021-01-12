@@ -234,73 +234,73 @@ public class AuthorExample {
             return (Criteria) this;
         }
 
-        public Criteria andDynastyIsNull() {
-            addCriterion("dynasty is null");
+        public Criteria andAuthorIdIsNull() {
+            addCriterion("author_id is null");
             return (Criteria) this;
         }
 
-        public Criteria andDynastyIsNotNull() {
-            addCriterion("dynasty is not null");
+        public Criteria andAuthorIdIsNotNull() {
+            addCriterion("author_id is not null");
             return (Criteria) this;
         }
 
-        public Criteria andDynastyEqualTo(String value) {
-            addCriterion("dynasty =", value, "dynasty");
+        public Criteria andAuthorIdEqualTo(String value) {
+            addCriterion("author_id =", value, "authorId");
             return (Criteria) this;
         }
 
-        public Criteria andDynastyNotEqualTo(String value) {
-            addCriterion("dynasty <>", value, "dynasty");
+        public Criteria andAuthorIdNotEqualTo(String value) {
+            addCriterion("author_id <>", value, "authorId");
             return (Criteria) this;
         }
 
-        public Criteria andDynastyGreaterThan(String value) {
-            addCriterion("dynasty >", value, "dynasty");
+        public Criteria andAuthorIdGreaterThan(String value) {
+            addCriterion("author_id >", value, "authorId");
             return (Criteria) this;
         }
 
-        public Criteria andDynastyGreaterThanOrEqualTo(String value) {
-            addCriterion("dynasty >=", value, "dynasty");
+        public Criteria andAuthorIdGreaterThanOrEqualTo(String value) {
+            addCriterion("author_id >=", value, "authorId");
             return (Criteria) this;
         }
 
-        public Criteria andDynastyLessThan(String value) {
-            addCriterion("dynasty <", value, "dynasty");
+        public Criteria andAuthorIdLessThan(String value) {
+            addCriterion("author_id <", value, "authorId");
             return (Criteria) this;
         }
 
-        public Criteria andDynastyLessThanOrEqualTo(String value) {
-            addCriterion("dynasty <=", value, "dynasty");
+        public Criteria andAuthorIdLessThanOrEqualTo(String value) {
+            addCriterion("author_id <=", value, "authorId");
             return (Criteria) this;
         }
 
-        public Criteria andDynastyLike(String value) {
-            addCriterion("dynasty like", value, "dynasty");
+        public Criteria andAuthorIdLike(String value) {
+            addCriterion("author_id like", value, "authorId");
             return (Criteria) this;
         }
 
-        public Criteria andDynastyNotLike(String value) {
-            addCriterion("dynasty not like", value, "dynasty");
+        public Criteria andAuthorIdNotLike(String value) {
+            addCriterion("author_id not like", value, "authorId");
             return (Criteria) this;
         }
 
-        public Criteria andDynastyIn(List<String> values) {
-            addCriterion("dynasty in", values, "dynasty");
+        public Criteria andAuthorIdIn(List<String> values) {
+            addCriterion("author_id in", values, "authorId");
             return (Criteria) this;
         }
 
-        public Criteria andDynastyNotIn(List<String> values) {
-            addCriterion("dynasty not in", values, "dynasty");
+        public Criteria andAuthorIdNotIn(List<String> values) {
+            addCriterion("author_id not in", values, "authorId");
             return (Criteria) this;
         }
 
-        public Criteria andDynastyBetween(String value1, String value2) {
-            addCriterion("dynasty between", value1, value2, "dynasty");
+        public Criteria andAuthorIdBetween(String value1, String value2) {
+            addCriterion("author_id between", value1, value2, "authorId");
             return (Criteria) this;
         }
 
-        public Criteria andDynastyNotBetween(String value1, String value2) {
-            addCriterion("dynasty not between", value1, value2, "dynasty");
+        public Criteria andAuthorIdNotBetween(String value1, String value2) {
+            addCriterion("author_id not between", value1, value2, "authorId");
             return (Criteria) this;
         }
 
