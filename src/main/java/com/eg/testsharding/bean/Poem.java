@@ -3,8 +3,6 @@ package com.eg.testsharding.bean;
 public class Poem {
     private Long id;
 
-    private String poemId;
-
     private String title;
 
     private String dynasty;
@@ -19,14 +17,6 @@ public class Poem {
 
     public void setId(Long id) {
         this.id = id;
-    }
-
-    public String getPoemId() {
-        return poemId;
-    }
-
-    public void setPoemId(String poemId) {
-        this.poemId = poemId == null ? null : poemId.trim();
     }
 
     public String getTitle() {
